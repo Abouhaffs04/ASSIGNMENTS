@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>login page</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body{
+      background-color: lightpink;
+      line-height: 1.8;
+      font-family: arial;
+    }
+    .container{
+      max-width: 300px;
+      margin: 100px auto;
+    }
+    .wrap{
+      padding: 15px 25px;
+      background-color: #fff;
+      border-radius: 5px;
+      border-top: 4px solid sandybrown;
+    }
+    h1,p{
+      text-align: center;
+    }
+    .group{
+      margin-top: 10px;
+    }
+    label{
+      color: #666;
+      display: inline-block;
+    }
+    input{
+      padding: 10px;
+      width: 100%;
+      border: #ddd 1px solid;
+      border-radius: 5px;
+      color: #666;
+      font-size: 15px;
+    }
+    button{
+      width: 100%;
+      margin-top: 20px;
+      padding: 10px;
+      background-color: greenyellow;
+      border:1px solid greenyellow;
+      font-size: 16px;
+      font-family: arial;
+      border-radius: 5px;
+      color: #fff;
+    }
+    .bottom-text{
+     margin-top: 10px;
+    }
+    #here{
+      color: green
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="wrap">
+      <h1>Login</h1>
+      <form action="">
+        <div class="group">
+         <label for="Email">Email</label>
+         <input type="email" placeholder="abouhaffs04@gmail.com" id="email">
+        </div>
+        <div class="group">
+         <label for="password">password</label>
+         <input type="password" placeholder="********" id="email">
+        </div>
+       <a href="form-success page.html" ><button value="submit">Login</button></a>
+       
+        <p class="bottom-text">Not registered? <a href="form-registration.html" id="here">Register Here</a></p>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
